@@ -1,15 +1,7 @@
 var input = document.querySelector('.numberInput');
 var para = document.querySelector('p');
 
-//function squared(num) {
-//    return num * num;
-//}
-
 var square = num => num * num;
-
-//function cubed(num) {
-//    return num * num * num;
-//}
 var cube = num => num * num * num;
 
 function factorial(num) {
@@ -20,20 +12,9 @@ function factorial(num) {
     }
     return num;
 }
-
-//function squareRoot(num) {
-//    return Math.sqrt(num);
-//}
-
 var squareRt = num => Math.sqrt(num);
-
-//function cubeRoot(num) {
-//    return Math.cbrt(num);
-//}
 var cubeRt = num => Math.cbrt(num);
-
 var perimeter = num => num * 2 * Math.PI;
-
 
 input.onchange = function() {
     var num = input.value;
@@ -49,3 +30,18 @@ input.onchange = function() {
             'A circle with radius ' + num + ' has a perimeter of ' + perimeter(num) + '.';
     }
 }
+
+//function squared(num) {
+//    return num * num;
+//}
+//function cubeRoot(num) {
+//    return Math.cbrt(num);
+//}
+
+//function squareRoot(num) {
+//    return Math.sqrt(num);
+//}
+
+//function cubed(num) {
+//    return num * num * num;
+//}
